@@ -8,7 +8,7 @@ function($scope) {
     var y = 0;
     while (y <= $scope.startingTip) {
       accumulated = accumulated + y * 365;
-      $scope.arr.push("con " + y + " años le da " + y * 365 + " euros y en la hucha hay " + accumulated + " euros");
+      $scope.arr.push("con " + y + " años lali le da " + y * 365 + " euros y Daniel tiene en la hucha hay " + accumulated + " euros");
       y++;
     }
   };
