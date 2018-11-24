@@ -6,7 +6,7 @@
 		<div>
 			Años <input type="number" ng-model="startingTip" ng-change="computeTip()" />
 		</div>
-		<div ng-repeat="item in arr">{{item}}</div>
+		<div ng-repeat="item in arr" ng-bind="item"></div>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 		<script src="./daniel.js"></script>
 	</body>
