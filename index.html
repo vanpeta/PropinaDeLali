@@ -1,0 +1,13 @@
+<html ng-app="laliTip">
+	<head>
+	</head>
+	<body ng-controller="tipController">
+		<h2>Propina de Daniel</h2>
+		<div>
+			Años <input type="number" ng-model="startingTip" ng-change="computeTip()" />
+		</div>
+		<div ng-repeat="item in arr">{{item}}</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="./daniel.js"></script>
+	</body>
+</html>
